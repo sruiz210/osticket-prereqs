@@ -74,10 +74,45 @@ Step 6. From the installation files install VC_redist.x86.exe.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/L4xELKJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7. From the installation files install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+</p>
+<br />
+<p>
+7.b
+<img src="https://i.imgur.com/hVCuzlm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+<p>
+<img src="https://i.imgur.com/HUi5Fsb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 8. Open IIS as an Admin, register PHP, then restart the server
+</p>
+<br />
+<p>
+8b. The PHP file will be located in the C:\PHP folder previously created. Select the file within named "php-cgi".
+<img src="https://i.imgur.com/rsWi9tj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8c. On the right, click "restart" under Actions> Manage server <img src="https://i.imgur.com/RMOHn6d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
 <br />
