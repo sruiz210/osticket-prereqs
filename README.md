@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL
 - osTicket (Help Desk Ticketing System)
 <h2>Installation Steps</h2>
-Step 1. Install / Enable IIS in Windows WITH CGI (World Wide Web Services -> Application Development Features -> [X] CGI)
+<p><b>Step 1. Install / Enable IIS in Windows WITH CGI (World Wide Web Services -> Application Development Features -> [X] CGI)<p><b>
 <p>
 <img src="https://i.imgur.com/M0C0Ggm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -115,49 +115,51 @@ Step 9. Install osTicket v1.15.8. Copy “upload” folder to c:\inetpub\wwwroot
 <br />
 <p>
 Step 10. Go Back to IIS Manager> sites> Default> osTicket and double click on PHP Manager to enable a few extensions.
-As shown below there a few X's next to a couple of disabled extensions. 
-<img src="https://i.imgur.com/FW247Bu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+As shown below there are a few X's next to a couple of disabled extensions. 
+<img src="https://i.imgur.com/YgnM7of.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 On IIS manager select " Browse*:80(http)" on the right to check the status of osTicket sytem extensions.
 </p>
 <p>
 </p>
 10b. Click "Enable or Disable Extension"> right click and select "enable" on the following extensions; php_imap.dll, php_intl.dll, php_opcache.dll
+<p>
 <img src="https://i.imgur.com/QfsYQuS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
 10c. Once extensions are enabled, refresh the osTicket browser. If done correctly, the browser should look like this.
 <img src="https://i.imgur.com/5ysJn3V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 11. After navigating to http://localhost/osTicket/setup/install, rename the ost-config.php file and click continue.
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<img src="https://i.imgur.com/QHt8q3Q.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 12. After changing the ost-config.php file and clicking continue and you should see the following screen:
+<img src="https://i.imgur.com/jiztQHW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Fill out the information and click save when finished.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 13. Step 14. From the installation files install HeidiSQL
+-Open Heidi SQL
+-Create a new session, root/Password1
+-Connect to the session
+-Create a database called “osTicket”
+-Click Open
+</p>
+Image 1. <img src="https://i.imgur.com/Ah5yrmI.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Image 2. <img src="https://i.imgur.com/2Kqioe1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Thank you for following along !
 </p>
 <br />
