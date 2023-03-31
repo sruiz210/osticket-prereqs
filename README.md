@@ -7,9 +7,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -136,7 +134,7 @@ On IIS manager select " Browse*:80(http)" on the right to check the status of os
 Step 11. After navigating to http://localhost/osTicket/setup/install, rename the ost-config.php file and click continue.
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-<img src="https://i.imgur.com/QHt8q3Q.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nZiGg7f.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
